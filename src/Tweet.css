@@ -1,0 +1,112 @@
+.tweet-container {
+  min-height: 100px;
+  width: 100%;
+  border: 5px solid #584841;
+  margin-top: 40px;
+  font-weight: 300;
+  -webkit-filter: blur(0.5px);
+          filter: blur(0.5px);
+}
+
+.tweet-container:hover {
+  -webkit-box-shadow: 10px 10px #bdbdcf;
+          box-shadow: 10px 10px #bdbdcf;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.tweet-container:hover p,
+.tweet-container:hover .tweet {
+  color: black;
+}
+
+.tweet-container:hover .tweeter-handler {
+  color: #bdbdcf;
+}
+
+.tweet-container:hover .tweet-buttons ion-icon {
+  color: #4050A1;
+}
+
+.tweet-container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 25px 20px;
+}
+
+.tweet-container header .username {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tweet-container header .username img {
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.tweet-container header .username p {
+  margin: 0;
+}
+
+.tweet-container header .tweeter-handler {
+  margin: 0;
+  color: #f4f1ec;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.tweet-container .tweet {
+  margin: 0 15px;
+  padding: 0px 20px 30px 20px;
+  border-bottom: 4px solid #584841;
+  font-size: 24px;
+  color: #584841;
+  word-break: break-all;
+}
+
+.tweet-container footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.tweet-container footer p {
+  margin: 0;
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+.tweet-container footer .tweet-button {
+  color: #5570b6;
+  font-size: 16px;
+  padding: 5px 40px;
+}
+
+.tweet-container footer .tweet-button ion-icon {
+  margin-left: 6px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=tweet.css.map */
